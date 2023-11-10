@@ -1,0 +1,101 @@
+body {
+    background: transparent;
+}
+
+
+.house {
+    background: gray;
+    word-spacing: 60px;
+
+}
+
+.list li {
+    background: lightblue;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    font-size: 0.2rem;
+    margin: 0;
+    text-decoration: wavy;
+    text-transform: uppercase;
+}
+
+.list li:hover {
+    background: red;
+    text-decoration: wavy;
+    transition:all ease 0.4s;
+    padding: 0.4rem;
+}
+
+.suscribe {
+    text-align: center;
+    background: white;
+}
+
+.suscribe li {
+    list-style: none;
+}
+
+nav  {
+    background: transparent;
+    border: white solid 1px;
+    padding: 10px;
+    display: flex; 
+    transition: background-color 0.3s ease;
+    margin: 1rem;
+    
+    
+    
+}
+
+ 
+
+nav.scrolled {
+    background: gray; 
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    
+}
+
+
+nav  ul {
+    display: flex;
+    gap: 3rem;  
+    margin-top: 2rem;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+
+}
+
+nav img { 
+    width:5rem;
+    height: 5rem;
+
+}
+
+
+.search { 
+    margin-left: 16rem;
+    margin-top: 2rem;
+}
+
+@media screen  {
+    
+}
+
+.group {
+    background: transparent;
+}
+
+.group:hover {
+    background: #909090;
+
+}

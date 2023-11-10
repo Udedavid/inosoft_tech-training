@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="practice.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Navbar</title>
+    <style>
+      :root {
+        --primary-color: #fff;
+        --secondary-color: #7c6969;
+        --head-color: rgb(80, 243, 65);
+        --font-sm: 10px;
+        --font-md: 14px;
+        --font-lg: 20px;
+
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        /* Adding some content to enable scrolling */
+
+      }
+
+
+      @keyframes slide {
+        from {
+          transform: translateY(-100%);
+        }
+
+        to {
+          transform: translateY(0);
+        }
+      }
+      
+
+
+
+      nav {
+        animation: slide 1s ease-in-out;
+      }
+
+      nav {
+        background-color: transparent;
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        transition: background-color 0.5s ease;
+      }
+
+      nav.scrolled {
+        background-color: var(--head-color);
+      }
+
+      .containers {
+        display: flex;
+        gap: 2rem;
+        margin: 2rem;
+        border: var(--secondary-color) solid 1px;
+        border-radius: 2rem;
+        margin-top: 5rem;
+        padding: 2rem;
+
+      }
+
+      .containers2 {
+       grid-template-columns: repeat(2,1fr) ;
+        display: grid;
+        border: solid 1px ;
+        gap: 5rem;
+        padding: 5rem;
+        margin: 1rem;
+        
+      }
+
+      .box2 {
+        padding: 1rem;
+        border: solid 1px;
+      
+
+      }
+
+      img {
+        padding: 1rem;
+        
+      }
+
+      .but {
+        background-color: #3498db;
+        color: #fff;
+        padding: 10px 20px;
+        transition-property: background-color,color ;
+        transition-duration: 1s ;
+        transition-timing-function: ease-in-out;
+      }
+
+      .but:hover {
+        background-color: #fff;
+        color:#3498db ;
+      }
+
+
+
+
+      .content {
+        height: 200vh;
+
+      }
+
+      @keyframes move {
+        0% {
+          transform: translateX(0);
+        }
+
+        50% {
+          transform: translateX(200px);
+        }
+
+        100% {
+          transform: translateX(0);
+        }
+      }
+
+      .any {
+        width: 20%;
+        height: 10%;
+        background-color: #e74c3c;
+        border-radius: 50%;
+        animation: move 2s ease-in-out infinite;
+  
+      }
+
+      @media screen and (max-width:600px) {
+        .containers {
+          display: grid;
+        }
+
+      }
+
+      @media screen and (min-width:601px) {
+        
+      }
+
+      @media screen and (max-width:1024px) {
+        
+      }
+
+      @media screen and (min-width:1025px) {
+        
+      }
+
+    
+
+
+      #navbar ul {
+        display: flex;
+        gap: 2rem;
+      }
+
+      nav li {
+        text-decoration: none;
+        list-style: none;
+      }
+
+      a {
+        text-decoration: none;
+        color: #00a884;
+        background: red;
+        padding: 1rem;
+        border-radius: 1rem;
+        
+
+      }
+
+      a:hover {
+        padding: 0.5rem;
+        filter: brightness(20px);
+        transition: all ease 0.5s;
+      }
+
+      .box {
+
+        background: var(--secondary-color);
+        margin-top: 5rem;
+        padding: 2rem;
+        border: black 1px solid;
+        border-radius: 2rem;
+        transition: background-color ease 1s;
+        align-items: baseline;
+        
+      
+
+
+      }
+
+      .box:hover {
+        background: rgb(255, 115, 0);
+        color: wheat;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      <div class="containers">
+        <div class="box">
+          <h4>The header</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, explicabo corporis. Illum non commodi
+            dolore mollitia, voluptatibus dicta culpa officia.</p>
+        </div>
+        <div class="box">
+          <h4>Lorem ipsum dolor sit amet.</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, explicabo corporis. Illum non commodi
+            dolore mollitia, voluptatibus dicta culpa officia.</p>
+        </div>
+        <div class="box">
+          <h4>Lorem ipsum dolor sit amet.</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, explicabo corporis. Illum non commodi
+            dolore mollitia, voluptatibus dicta culpa officia.</p>
+            <button class="but">button</button>
+        </div>
+        
+      </div>
+
+      <div class="any">
+
+      </div>
+      
+  
+
+      <div class="containers2">
+        <div class="box2">
+          <img src="/004.jpeg" alt="">
+          <h4>The header</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, explicabo corporis. Illum non commodi
+            dolore mollitia, voluptatibus dicta culpa officia.</p>
+            <button class="btn">buy</button>
+        </div>
+        <div class="box2">
+          <img src="/004.jpeg" alt="">
+
+          <h4>Lorem ipsum dolor sit amet.</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, explicabo corporis. Illum non commodi
+            dolore mollitia, voluptatibus dicta culpa officia.</p>
+            <button class="btn">buy</button>
+        </div>
+        <div class="box2">
+          <img src="/004.jpeg" alt="">
+
+          <h4>Lorem ipsum dolor sit amet.</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, explicabo corporis. Illum non commodi
+            dolore mollitia, voluptatibus dicta culpa officia.</p>
+            <button class="btn">buy</button>
+        </div>
+        <div class="box2">
+          <img src="/004.jpeg" alt="">
+
+          <h4>Lorem ipsum dolor sit amet.</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, explicabo corporis. Illum non commodi
+            dolore mollitia, voluptatibus dicta culpa officia.</p>
+            <button class="btn">buy</button>
+        </div>
+      </div>
+
+
+     
+    <script>
+      const navbar = document.getElementById('navbar');
+
+      window.addEventListener('scroll', () => {
+        const scrollPosition = window.scrollY;
+
+        if (scrollPosition > 0) {
+          navbar.classList.add('scrolled');
+        } else {
+          navbar.classList.remove('scrolled');
+        }
+      });
+    </script>
+  </body>
+
+  </html>
+</body>
+
+</html>

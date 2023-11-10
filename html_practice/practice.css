@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    
+    border: 1px solid blue;
+}
+
+.box1 {
+    background: red;
+    border: 1px solid blue;
+    gap: 2rem;
+    padding: 4rem;
+    margin: 2rem;
+    border-radius: 5rem;
+}
+
+@media screen and (max-width:600px){
+    .container {
+        display: grid;
+    }
+
+    
+}
+
+@media screen and (max-width:1024px){
+    
+    
+}

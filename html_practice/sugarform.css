@@ -1,0 +1,29 @@
+.cac {
+    color: green;
+    background-color: black;
+    text-align: center;
+    font-size: x-large;
+    font-family: serif;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+body {
+    background-color: gray;
+    text-align: center;
+    
+}
+
+input {
+    padding: 1rem 6rem 1rem 6rem;
+    border-radius: 2rem;
+    font-size:  medium;
+}
+
+#sign h2 {
+    font-size: larger;
+}
+
+.prp {
+    font-size: x-large;
+}
+

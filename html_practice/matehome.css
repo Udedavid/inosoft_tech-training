@@ -1,0 +1,71 @@
+.house {
+    background: gray;
+    font-size: large;
+    letter-spacing:normal;
+    word-spacing: 40px;
+    position: fixed;
+
+
+}
+
+.comb {
+    background: black;
+}
+
+.mainpics {
+    
+}
+
+.about {
+    background: gray;
+    text-align: center;
+}
+
+.row1 {
+    background: gray;
+}
+
+.row2 {
+    background: gray;
+}
+
+.row3 {
+    background: gray;
+}
+
+.ex {
+    text-align: center;
+
+}
+
+.ceo {
+    text-align: center;
+}
+
+.suscribe {
+    text-align: center;
+    font-style: italic;
+    background: red;
+}
+
+.com {
+    text-align: center;
+}
+
+.suscribe {
+    background-color: gainsboro;
+}
+
+.conclusion {
+    text-align: center;
+    background-color: black;
+    word-spacing: 20px;
+}
+
+
+
+.copy {
+    text-align: center;
+    
+}
+

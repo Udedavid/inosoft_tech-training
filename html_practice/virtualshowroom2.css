@@ -1,0 +1,65 @@
+body {
+    background: transparent;
+}
+
+
+.house {
+    background: gray;
+    word-spacing: 60px;
+}
+
+.suscribe {
+    text-align: center;
+    background: white;
+    list-style: none;
+}
+
+nav  {
+    background: transparent;
+    border: white solid 1px;
+    padding: 10px;
+    display: flex; 
+    transition: background-color 0.3s ease;
+    margin: 1rem;
+    
+    
+    
+}
+
+ 
+
+nav.scrolled {
+    background: gray; 
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    
+}
+
+
+nav  ul {
+    display: flex;
+    gap: 3rem;  
+    margin-top: 2rem;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+
+}
+
+nav img { 
+    width:5rem;
+    height: 5rem;
+
+}
+
+.search { 
+    margin-left: 16rem;
+    margin-top: 2rem;
+}

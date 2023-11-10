@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="application_form.css">
     <title>job application form</title>
 </head>
 <body>
+   <div class="mainheader">
+      <img src="construction.png">
     <h1> APPLICATION FORM</h1>
-    <img src="construction.png">
 
+    </div>
+   
     <p>please ensure provided informations are accurate and true</p>
     <br>
 
@@ -24,10 +28,9 @@
      </h5>
      <h5>
         <label for="sex"> Gender:</label>
-        <input type="checkbox" <li>male</li>
-        <input type="checkbox" <li>female</li>
-        <input type="checkbox" <li>others</li>
-     </h5>
+       <li><input type="checkbox"/> male</li> 
+       <li><input type="checkbox"/> female</li> 
+       </h5>
      <h4>
         <label for="country"> Country of Origin:</label>
         <select name="country" id="country">
@@ -103,13 +106,14 @@
      </p>
      <ul>
       <label for="tag">Have you ever been convicted of any crime?:</label>
-      <input type="checkbox" <li>yes</li>
-      <input type="checkbox" <li>no </li> 
+       
+      <input type="checkbox"> yes
+      <input type="checkbox" >no 
      </ul>
      <ul>
       <label for="tag">Are you addicted to hard drugs?:</label>
-      <input type="checkbox" <li>yes</li>
-      <input type="checkbox" <li>no </li> 
+      <input type="checkbox" >yes
+      <input type="checkbox"> no
      </ul>
 
      <p>
@@ -118,7 +122,9 @@
 
      <br>
      <br>
-     <input type="radio"> i understand all that i filled and accept accountability for recorded data.>
+     <div class="radi">
+     <input type="radio" id="rad" name="rad"> i understand all that i filled and accept accountability for recorded data.>
+     </div>
      <p>
 
      <button type="submit">click to submit.</button>

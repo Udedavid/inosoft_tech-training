@@ -1,0 +1,40 @@
+.mainheader h1 {
+    font-size: 40px; 
+    color: red; 
+    background: black;
+    padding: 5rem;
+    text-align: center;
+}
+
+form {
+    color: peru;
+    background: black;
+    text-align: center;
+}
+
+button {
+    padding: 1rem 8rem 1rem 8rem;
+    font-size: 30px;
+    color: black;
+    background: red;
+}
+
+#rad {
+    padding: 1rem 10rem 1rem 10rem;
+}
+
+
+img {
+    margin-bottom: -10rem;
+    border-radius: 5rem;
+}
+
+input {
+    padding: 1rem 4rem 1rem 4rem;
+    border-radius: 10rem;
+}
+
+body {
+    background: red;
+}
+ 

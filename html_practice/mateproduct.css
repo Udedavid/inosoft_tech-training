@@ -1,0 +1,42 @@
+.house {
+    background:transparent;
+    font-size: large;
+    letter-spacing:normal;
+    word-spacing: 40px;
+    position: relative;
+
+}
+
+body {
+    background-size: cover;
+    
+
+}
+
+.conclusion {
+    word-spacing: 180px;
+    background-color: azure;
+}
+
+.contact {
+    word-spacing: 50px;
+    text-align: center;
+    background: lightgoldenrodyellow;
+
+}
+
+.copy {
+    text-align: center;
+}
+
+.product {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.conclusion {
+    text-align: center;
+    background-color: black;
+    word-spacing: 20px;
+}
